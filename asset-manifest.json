@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/goworkwebsite2/static/css/main.84a0ba1b.chunk.css",
-    "main.js": "/goworkwebsite2/static/js/main.29467b70.chunk.js",
-    "main.js.map": "/goworkwebsite2/static/js/main.29467b70.chunk.js.map",
+    "main.css": "/goworkwebsite2/static/css/main.42a3a097.chunk.css",
+    "main.js": "/goworkwebsite2/static/js/main.8e280955.chunk.js",
+    "main.js.map": "/goworkwebsite2/static/js/main.8e280955.chunk.js.map",
     "runtime-main.js": "/goworkwebsite2/static/js/runtime-main.6d832850.js",
     "runtime-main.js.map": "/goworkwebsite2/static/js/runtime-main.6d832850.js.map",
-    "static/js/2.2a03936c.chunk.js": "/goworkwebsite2/static/js/2.2a03936c.chunk.js",
-    "static/js/2.2a03936c.chunk.js.map": "/goworkwebsite2/static/js/2.2a03936c.chunk.js.map",
+    "static/js/2.a9587b8a.chunk.js": "/goworkwebsite2/static/js/2.a9587b8a.chunk.js",
+    "static/js/2.a9587b8a.chunk.js.map": "/goworkwebsite2/static/js/2.a9587b8a.chunk.js.map",
     "static/js/3.588d0355.chunk.js": "/goworkwebsite2/static/js/3.588d0355.chunk.js",
     "static/js/3.588d0355.chunk.js.map": "/goworkwebsite2/static/js/3.588d0355.chunk.js.map",
     "index.html": "/goworkwebsite2/index.html",
-    "static/css/main.84a0ba1b.chunk.css.map": "/goworkwebsite2/static/css/main.84a0ba1b.chunk.css.map",
-    "static/js/2.2a03936c.chunk.js.LICENSE.txt": "/goworkwebsite2/static/js/2.2a03936c.chunk.js.LICENSE.txt",
+    "static/css/main.42a3a097.chunk.css.map": "/goworkwebsite2/static/css/main.42a3a097.chunk.css.map",
+    "static/js/2.a9587b8a.chunk.js.LICENSE.txt": "/goworkwebsite2/static/js/2.a9587b8a.chunk.js.LICENSE.txt",
     "static/media/AA_logo.440af500.svg": "/goworkwebsite2/static/media/AA_logo.440af500.svg",
     "static/media/ATTITUDE.c67f738c.png": "/goworkwebsite2/static/media/ATTITUDE.c67f738c.png",
     "static/media/FLEKSIBILITET.1e722f3b.png": "/goworkwebsite2/static/media/FLEKSIBILITET.1e722f3b.png",
@@ -37,8 +37,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6d832850.js",
-    "static/js/2.2a03936c.chunk.js",
-    "static/css/main.84a0ba1b.chunk.css",
-    "static/js/main.29467b70.chunk.js"
+    "static/js/2.a9587b8a.chunk.js",
+    "static/css/main.42a3a097.chunk.css",
+    "static/js/main.8e280955.chunk.js"
   ]
 }
