@@ -1,0 +1,47 @@
+.Container{
+    background-color: #6cb0e1;
+    display: block;
+    padding:6rem 1rem 4rem 1rem;
+    font-size: 0.8rem;
+}
+
+.Container h4{
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.White{
+    background-color: white;
+}
+
+.Children{
+    margin-top: 2rem;
+    font-size: 1.25rem;
+}
+
+.Paragraph p{
+    font-size: 1.25rem;
+}
+
+.Children p{
+    font-size: 1.25rem;
+}
+
+.Children a{
+    text-decoration: none;
+    color: #6cb0e1;
+}
+
+.UnderHeader h2{
+    color: #2a5c91;
+    margin-top: 2rem;
+}
+
+
+@media (min-width: 576px) {
+    .Container{
+        font-size: 1rem;
+        padding:4rem 1rem 5rem 1rem;
+    }
+}
