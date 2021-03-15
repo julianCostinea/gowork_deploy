@@ -1,0 +1,10 @@
+.Laptop{
+    max-width: 90%;
+}
+
+@media (min-width: 600px) {
+    .Laptop {
+        display: block;
+        width: 590px;
+    }
+}

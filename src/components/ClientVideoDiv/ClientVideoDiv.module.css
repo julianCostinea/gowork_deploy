@@ -1,0 +1,52 @@
+.Container{
+    background-color: #3e9bd7;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    /* align-items: center; */
+    padding: 2rem;
+    padding-bottom: 5rem;
+}
+
+.Header h4{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 2rem;
+}
+
+.TextDiv{
+    font-size: 1.2rem;
+}
+
+.ImageDiv > div:hover{
+    transform: scale(1);
+}
+
+.ImageDiv img{
+        max-width: 100%;
+}
+
+.Paragraph{
+    margin: 3rem 0;
+}
+
+.Paragraph p{
+    text-align: center;
+}
+
+.White{
+    background-color: white;
+}
+
+@media (min-width: 576px) {
+    .Container{
+        /* flex-direction: row; */
+    }
+    .TextDiv{
+        margin-right: 5rem;
+        text-align: left;
+    }
+    .ImageDiv img {
+        width: 590px;
+    }
+}
