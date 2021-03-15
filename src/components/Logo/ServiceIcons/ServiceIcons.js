@@ -7,7 +7,7 @@ import Digital from './DigitalIcon';
 import Kundeservice from './Kundeservice';
 import Operations from './Operations';
 
-const logo = (props) => {
+const logo = () => {
     return (
         <div className={classes.IconContainer}>
             <Kundeservice />

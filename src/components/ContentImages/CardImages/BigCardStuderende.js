@@ -4,7 +4,7 @@ import StuderendePhoto from '../../../assets/images/Studerende_rettet.png';
 
 import classes from './CardImage.module.css'
 
-const BigCardPhoto = (props) => {
+const BigCardPhoto = () => {
     const [loaded, setLoaded] = useState(false);
     return (
     <div className={classes.CardPhoto}>

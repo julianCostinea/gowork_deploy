@@ -4,7 +4,7 @@ import RikkePhoto from '../../../assets/images/Clients/Rikke.jpg';
 
 import classes from './ClientPhoto.module.css'
 
-export const ClientPhotoRikke = (props) => {
+export const ClientPhotoRikke = () => {
     const [loaded, setLoaded] = useState(false);
     return (
     <div className={classes.ClientPhoto}>

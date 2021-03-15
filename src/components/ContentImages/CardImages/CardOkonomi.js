@@ -4,7 +4,7 @@ import okonomiPhoto from '../../../assets/images/OKONOMI.png';
 
 import classes from './CardImage.module.css'
 
-const CardPhoto = (props) => {
+const CardPhoto = () => {
     const [loaded, setLoaded] = useState(false);
     return (
     <div className={classes.CardPhoto}>

@@ -6,7 +6,7 @@ import Backdrop from '../Backdrop/Backdrop';
 import KontaktForm from '../../KontaktForm/KontaktForm';
 
 class KontaktModal extends Component {
-    shouldComponentUpdate ( nextProps, nextState ) {
+    shouldComponentUpdate ( nextProps ) {
         return nextProps.show !== this.props.show || nextProps.children !== this.props.children;
     }
 

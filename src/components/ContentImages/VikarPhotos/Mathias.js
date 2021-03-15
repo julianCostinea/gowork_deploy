@@ -4,7 +4,7 @@ import MathiasPhoto from '../../../assets/images/Vikarer/Mathias.jpg';
 
 import classes from './Vikar.module.css'
 
-export const VikarPhotoMathias = (props) => {
+export const VikarPhotoMathias = () => {
     const [loaded, setLoaded] = useState(false);
     return (
     <div className={classes.VikarPhoto}>

@@ -8,7 +8,7 @@ import StenhusLogo from './StenhusLogo';
 import Roskilde_VUCLogo from './Roskilde_VUCLogo';
 import SkanderborgLogo from './SkanderborgLogo';
 
-const logo = (props) => {
+const logo = () => {
     return (
         <div className={classes.LogoContainer}>
             <RUCLogo />

@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import classes from './FagOmrade.module.css'
 import DigitaltImage from '../../../assets/images/Fagomrader/Digitalt.png';
 
-const DigitaltImg = (props) => {
+const DigitaltImg = () => {
     const [loaded, setLoaded] = useState(false);
     return (
     <div className={classes.CardPhoto}>

@@ -8,7 +8,7 @@ import Card from '../../components/Card/Card';
 import CardFrihed from '../../components/ContentImages/CardImages/CardFrihed';
 import CardKompetence from '../../components/ContentImages/CardImages/CardKompetence';
 import CardTeam from '../../components/ContentImages/CardImages/CardTeam';
-import ClientVideoDiv from '../../components/ClientVideoDiv/ClientVideoDiv';
+import CarouselContainer from '../../components/CarouselContainer/CarouselContainer';
 import Carousel from '../../components/UI/Carousel/Carousel';
 import * as VikarPhotos from '../../components/ContentImages/VikarPhotos/VikarPhotos';
 
@@ -26,15 +26,15 @@ class Vikar extends Component {
                     header = {'Søger du\net fleksibelt job?'}
                     underText = {'Læs mere om dine muligheder >'}
                     >
-                   Bliv vikar! Og få tilbudt jobs der passer til <br />din hverdag, 
+                   Bliv GoWork’er! Og få tilbudt jobs der passer til <br />din hverdag, 
                    som studerende <br />nyuddannet 
                    eller specialist. <br /><br />
                 </TwoColumnDiv>
                 <OneColumnDiv 
                     header = {'Attention all doers'}
-                    paragraph = {`Vores vikar-team består af friske studerende, nyuddannede og mennesker i starten af deres karriere,\n
-                      der springer til med kort varsel, har lyst til at møde nye virksomheder og kollegaer, og nyder\n 
-                      den frihed som vikarjobbet giver. Lyder det som noget for dig? `}
+                    paragraph = {`Vores vikar- og freelance team består af ambitiøse mennesker i starten af deres karriere, der \n
+                        springer til med kort varsel, har lyst til at møde nye virksomheder og kollegaer, og nyder den \n
+                            frihed som vikar-/freelance jobbet giver. Lyder det som noget for dig? `}
                     >
                       Opret dit CV – hvis ikke nu, hvornår så?
                 </OneColumnDiv>
@@ -59,7 +59,7 @@ class Vikar extends Component {
                             />
                     </CardContainer>
                 </OneColumnDiv>
-                <ClientVideoDiv
+                <CarouselContainer
                     header = {'Hvad siger vores vikarer om os?'}>
                    <Carousel 
                         slide1 = {`Det har været en fornøjelse at være vikar ved GoWork. 
@@ -81,7 +81,7 @@ class Vikar extends Component {
                         slide3Name = {'Mathias'}
                         jobTitle3 = {'Lager vikar'}
                    />
-                </ClientVideoDiv>
+                </CarouselContainer>
             </div>
            </React.Fragment>
         );

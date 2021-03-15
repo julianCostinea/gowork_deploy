@@ -7,7 +7,7 @@ import ModalBox from './ModalBox';
 
 class Modal extends Component {
 
-    shouldComponentUpdate ( nextProps, nextState ) {
+    shouldComponentUpdate ( nextProps ) {
         return nextProps.show !== this.props.show || nextProps.children !== this.props.children;
     }
 

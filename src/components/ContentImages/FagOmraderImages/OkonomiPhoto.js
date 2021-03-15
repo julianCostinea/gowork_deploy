@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import classes from './FagOmrade.module.css'
 import OkonomiImage from '../../../assets/images/Fagomrader/Okonomi.png';
 
-const OkonomiImg = (props) => {
+const OkonomiImg = () => {
     const [loaded, setLoaded] = useState(false);
     return (
     <div className={classes.CardPhoto}>

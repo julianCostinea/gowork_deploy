@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Icon from '../../../assets/images/Operations.svg';
 import classes from './ServiceIcon.module.css';
 
-const logo = (props) => {
+const logo = () => {
     return (
     <Link to={'/virksomheder/lager'}>
         <div className={classes.Icon}>

@@ -8,7 +8,7 @@ import RUCLogo from './RUCLogo';
 import HNLogo from './HNLogo';
 import AALogo from './AALogo';
 
-const logo = (props) => {
+const logo = () => {
     return (
         <div className={classes.LogoContainer}>
             <div className={classes.splitRow}>

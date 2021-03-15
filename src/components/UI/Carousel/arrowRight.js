@@ -2,7 +2,7 @@ import React from 'react';
 
 import arrowRight from '../../../assets/images/arrow-right.svg';
 
-const arrow = (props) => (
+const arrow = () => (
     <img src={arrowRight} alt="arrow-Right"/>
 );
 

@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import classes from './FagOmrade.module.css'
 import LagerImage from '../../../assets/images/Fagomrader/Lager.png';
 
-const LagerImg = (props) => {
+const LagerImg = () => {
     const [loaded, setLoaded] = useState(false);
     return (
     <div className={classes.CardPhoto}>

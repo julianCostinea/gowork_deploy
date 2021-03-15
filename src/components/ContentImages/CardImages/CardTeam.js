@@ -4,7 +4,7 @@ import TeamPhoto from '../../../assets/images/Stock_team.png';
 
 import classes from './CardImage.module.css'
 
-const CardPhoto = (props) => {
+const CardPhoto = () => {
     const [loaded, setLoaded] = useState(false);
     return (
     <div className={classes.CardPhoto}>

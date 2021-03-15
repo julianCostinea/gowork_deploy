@@ -4,7 +4,7 @@ import ArrowRight from './arrowRight';
 
 import './Carousel.css';
 
-const Carousel = React.memo((props) => {
+const Carousel = (props) => {
     useEffect(() => {
         const track = document.querySelector('.carousel__track');
         const slides = Array.from(track.children);
@@ -46,7 +46,7 @@ const Carousel = React.memo((props) => {
 
         //next Slide
         const nextButton = document.querySelector('.carousel__button--right');
-        nextButton.addEventListener('click', e => {
+        nextButton.addEventListener('click', function() {
             const currentSlide = track.querySelector('.current-slide');
             const nextSlide = currentSlide.nextElementSibling;
             const currentDot = dotsNav.querySelector('.current-slide');
@@ -60,7 +60,7 @@ const Carousel = React.memo((props) => {
 
         //prev Slide
         const prevButton = document.querySelector('.carousel__button--left');
-        prevButton.addEventListener('click', e => {
+        prevButton.addEventListener('click', function() {
             const currentSlide = track.querySelector('.current-slide');
             const prevSlide = currentSlide.previousElementSibling;
             const currentDot = dotsNav.querySelector('.current-slide');
@@ -103,7 +103,7 @@ const Carousel = React.memo((props) => {
             <div className="carousel__track-container">
                 <ul className="carousel__track">
                     <li className="carousel__slide current-slide">
-                        <h2>"{props.slide1}"</h2>
+                        <h2>&quot;{props.slide1}&quot;</h2>
                         <div className={"credentials"}>
                             {props.vikarPhoto1}
                             <div className={"credentials__text"}>
@@ -114,7 +114,7 @@ const Carousel = React.memo((props) => {
                         </div>
                     </li>
                     <li className="carousel__slide">
-                        <h2>"{props.slide2}"</h2>
+                        <h2>&quot;{props.slide2}&quot;</h2>
                         <div className={"credentials"}>
                             {props.vikarPhoto2}
                             <div className={"credentials__text"}>
@@ -125,7 +125,7 @@ const Carousel = React.memo((props) => {
                         </div>
                     </li>
                     <li className="carousel__slide">
-                        <h2>"{props.slide3}"</h2>
+                        <h2>&quot;{props.slide3}&quot;</h2>
                         <div className={"credentials"}>
                             {props.vikarPhoto3}
                             <div className={"credentials__text"}>
@@ -148,6 +148,8 @@ const Carousel = React.memo((props) => {
             </div>
         </div>
     );
-});
+};
 
-export default Carousel;
+const MemoCarousel = React.memo(Carousel);
+
+export default MemoCarousel;

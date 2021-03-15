@@ -5,7 +5,7 @@ import classes from './OneColumnDiv.module.css';
 const OneColumnDiv = (props) => {
     let formattedParagraph = '';
     if (props.paragraph) {
-        formattedParagraph = props.paragraph.split('\n').map((str, index) => <p key={index}>{str}</p>);
+        formattedParagraph = props.paragraph.split('\n').map((str, index) => <p key={index}>{str}<br/></p>);
     }
     let attachedClasses = [classes.Container];
     if (props.whiteDiv) {

@@ -4,7 +4,7 @@ import MagnusPhoto from '../../../assets/images/Vikarer/Magnus.jpeg';
 
 import classes from './Vikar.module.css'
 
-export const VikarPhotoMagnus = (props) => {
+export const VikarPhotoMagnus = () => {
     const [loaded, setLoaded] = useState(false);
     return (
     <div className={classes.VikarPhoto}>

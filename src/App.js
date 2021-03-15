@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Redirect, Route, Switch} from 'react-router-dom';
+import { Route, Switch} from 'react-router-dom';
 
 import Layout from './hoc/Layout/Layout';
 import './App.css';
@@ -17,15 +17,15 @@ import Lager from './containers/ServicePages/Lager';
 import OmOs from './containers/OmOs/OmOs';
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+{/* eslint-disable-next-line */}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 </style>
 
 class App extends Component {
   state={
     showBoxShadow: false,
     showModal: false,
-  }
-  
+  }  
   closeModal = () => {
     this.setState( { showModal: false } );
   }

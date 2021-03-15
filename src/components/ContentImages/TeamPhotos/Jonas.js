@@ -4,7 +4,7 @@ import photoJonas from '../../../assets/images/team/Jonas.jpg';
 
 import classes from './Team.module.css'
 
-export const CandidatePhotoJonas = (props) => {
+export const CandidatePhotoJonas = () => {
     const [loaded, setLoaded] = useState(false);
     return (
     <div className={classes.CardPhoto}>

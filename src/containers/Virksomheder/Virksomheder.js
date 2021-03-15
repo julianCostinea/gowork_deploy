@@ -15,7 +15,7 @@ import VirksomehederImg from '../../components/ContentImages/VirksomhederImage';
 import classes from './Virksomheder.module.css';
 
 import KontaktModal from '../../components/UI/Modal/KontaktModal';
-import ClientVideoDiv from '../../components/ClientVideoDiv/ClientVideoDiv';
+import CarouselContainer from '../../components/CarouselContainer/CarouselContainer';
 import Carousel from '../../components/UI/Carousel/Carousel';
 import * as ClienPhotos from '../../components/ContentImages/ClientPhotos/ClientPhotos';
 
@@ -36,14 +36,10 @@ class Virksomheder extends Component {
               <div className={classes.Content}>
                 <TwoColumnDiv 
                     imageDiv = {<VirksomehederImg />}
-                    header = {'Vi finder de\n bedste vikarer til\n at løse dine\n opgaver'}>
-                   Go:Work formidler studerende og nyuddannede  <br /> 
-                   til de fleste opgaver, og specialister til det der kræver <br />
-                   noget mere. <br /><br />
-                   Vi udvælger kun de stærkeste kandidater, så du kommer <br /> 
-                   sikkert i mål opgaven – simple eller komplekse, <br /> 
-                   få timer eller på fuld tid. <br /> <br /> 
-                   Og ja, så kan du spare op til 35% på dit vikargebyr. <br /><br/><br/> 
+                    header = {'Få de bedste \n vikarer og\n freelancere\n til opgaven'}>
+                   Hurtig adgang til de rette kompetencer og <br /> 
+                   garanti for et godt match. <br />
+                   Og så kan du spare op til 35% på dit vikargebyr. <br /><br/><br/> 
                    Hvilken opgave søger du personale til? <br/>
                    <KontaktModalButton openKontakt = {this.showModal} />
                 </TwoColumnDiv>
@@ -65,19 +61,19 @@ class Virksomheder extends Component {
                         <Card 
                             cardPhoto = {<CardOkonomi />}
                             cardHeader = {'ØKONOMI'}
-                            cardBody ={'Lavere \'over-head\' end\ntraditionelle bureauer\ngiver mere udført\n arbejde for færre penge.'}
+                            cardBody ={'Lavere gebyr end\ntraditionelle bureauer\ngiver mere udført\n arbejde for færre penge.'}
                             />
                         <Card 
                             cardPhoto={<CardAttitude />}
                             cardHeader = {'ATTITUDE'}
-                            cardBody ={'Vi udvælger kun\nkandidater med en \'Can\ndo\' attitude og et godt\n hoved. Så dine opgaver \n bliver løst effektivt'}
+                            cardBody ={'Vi udvælger kun\nkandidater med en \'Can\ndo\' attitude. Så dine opgaver \n bliver løst effektivt.'}
                             />
                     </CardContainer>
                 </OneColumnDiv>
                 <OneColumnDiv 
                     header = {'Kvikke hoveder til de fleste opgaver'}
                     paragraph = {`Vi holder os skarpt opdateret på udviklingen indenfor flere fagområder. Sådan sikrer vi at din \n
-                    virksomhed til enhver tid har de stærkeste vikar eller specialist (freelancer) til opgaven.`}
+                    virksomhed til enhver tid har de stærkeste vikar eller freelance-specialister til opgaven.`}
                     >
                         <br />
                         Vælg det område du søger personale til: 
@@ -90,13 +86,13 @@ class Virksomheder extends Component {
                                 Fortæl os om dit behov
                         </a>
                 </OneColumnDiv>
-                <ClientVideoDiv
+                <CarouselContainer
                     whiteDiv
                     header = {'Hvad siger vores kunder?'}>
                    <Carousel 
                         slide1 = {`Vi er særdeles tilfredse med vores samarbejde med Go:Work. Vi er i en branche, hvor behovet
                             for personale varierer enormt - ofte med kort varsel. Med det samarbejde vi har
-                            med Go:Work, er vi aldrig bange for at tage opgaver ind.`}
+                            med GoWork, er vi aldrig bange for at tage opgaver ind.`}
                         vikarPhoto1 = {<ClienPhotos.ClientPhotoJacob />}
                         slide1Name = {'Jacob Riis'}
                         jobTitle1 = {'Terminalchef'}
@@ -116,7 +112,7 @@ class Virksomheder extends Component {
                         jobTitle3 = {'Studieadministrativ'}
                         firma3 = {'Roskilde Universitet'}
                    />
-                </ClientVideoDiv>
+                </CarouselContainer>
             </div>
           </div>  
         );

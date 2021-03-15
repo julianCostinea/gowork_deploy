@@ -4,7 +4,7 @@ import OlePhoto from '../../../assets/images/team/Ole.jpg';
 
 import classes from './Team.module.css'
 
-export const CandidatePhotoOle = (props) => {
+export const CandidatePhotoOle = () => {
     const [loaded, setLoaded] = useState(false);
     return (
     <div className={classes.CardPhoto}>

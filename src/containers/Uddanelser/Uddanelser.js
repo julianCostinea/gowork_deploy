@@ -12,7 +12,6 @@ import CardMatch from '../../components/ContentImages/CardImages/CardMatch';
 import CardFleksibilitet from '../../components/ContentImages/CardImages/CardFleksibilitet';
 import CardOkonomi from '../../components/ContentImages/CardImages/CardOkonomi';
 import UddannelserImage from '../../components/ContentImages/UddannelserImage';
-import SkanderborgLogo from '../../components/Logo/FirmaLogo/SkanderborgLogo';
 import ClientVideoDiv from '../../components/ClientVideoDiv/ClientVideoDiv';
 import KontaktModal from '../../components/UI/Modal/KontaktModal';
 
@@ -73,18 +72,23 @@ class Uddanelser extends Component {
                 <OneColumnDiv
                     header = {'Fleksible løsninger til alle behov'}
                     paragraph={`
-                        Vi tilpasser løsningen, så den matcher jeres behov. Der kan være tale om alt fra få eksamensvagter,
-                        som supplement til jeres eget korps, til fuld outsourcing, hvor vi stiller med koordinatorer 
-                        og et større antal vagter.`}
+                    Vi tilpasser løsningen, så den matcher perfekt til jeres behov. Der kan være tale om alt fra få 
+                    eksamensvagter, som supplement til jeres eget korps, til fuld outsourcing, hvor vi stiller med 
+                    koordinatorer og et større antal vagter.\n
+                    Som den foretrukne leverandør af eksterne eksamensvagter er vi din garanti for et velgennemført 
+                    eksamenstilsyn.\n
+                    Vores team af flittige konsulenter med omfattende viden og erfaring indenfor eksamenstilsyn står 
+                    klar til at hjælpe med den løsning, der matcher jeres behov.\n
+                    Kontakt os for en uforpligtende snak om mulighederne. Vi sidder klar til at hjælpe dig godt på vej. 
+                    Tlf.: 66 10 65 00.
+                    `}
                 />
                 <ClientVideoDiv
                     whiteDiv
-                    imageDiv = {<SkanderborgLogo width = {'20rem'} height = {'16rem'} />} 
                     header = {'Hvad siger vores kunder om os?'}>
-                   Hør det fra Skanderborg Gymnasium her!<br />
-                   I videon kan I møde Jacob Peter Thomsen,<br />
-                   som fortæller om samarbejdet med Go:Work. <br /><br /> 
-                   <span style={{color:'#2a5c91', fontWeight: 'bold'}}>Se video ></span>
+                   &quot;GoWork rammer plet med deres korps.&quot;<br />
+                   Jacob Peter Thomsen<br /> <br/>
+                   <strong>Skanderborg Gymnasium.</strong> 
                 </ClientVideoDiv>
             </div>
           </div>  
