@@ -15,9 +15,9 @@ class OmOs extends Component {
                 <OneColumnDiv
                     whiteDiv
                     header = {'Passion for fremtidens medarbejdere'}
-                    paragraph={`Go:Work er et vikar- og freelancebureau.Vi har siden 2012 formidlet studerende og \n
+                    paragraph={`Go:Work er et vikar- og freelancebureau.Vi har siden 2012 formidlet studerende og 
                         nyuddannede til vikariater- og studiejobs, og specialister til freelanceopgaver.\n
-                        Vi er vilde med den energi og de ambitioner som definerer generation Y og Z.\n 
+                        Vi er vilde med den energi og de ambitioner som definerer generation Y og Z.
                         Og brænder for at bringe talent og virksomhed sammen.`}
                 >
                 </OneColumnDiv>

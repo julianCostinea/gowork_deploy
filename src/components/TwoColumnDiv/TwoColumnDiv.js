@@ -7,11 +7,18 @@ import { Link } from 'react-router-dom';
 const TwoColumnDiv = (props) => {
     let button1 = null;
     if (props.buttonText) {
-        button1 = <Button buttonText = {props.buttonText}/>;
+        button1 = <Button 
+            buttonText = {props.buttonText}
+            buttonLink = {props.buttonLink}
+            />;
     }
     let button2 = null;
     if (props.button2Text) {
-        button2 = <Button whiteButton buttonText = {props.button2Text}/>;
+        button2 = <Button 
+            whiteButton 
+            buttonText = {props.button2Text}
+            buttonLink = {props.button2Link}
+            />;
     }
 
     const formattedHeader = props.header.split('\n').map((str, index) => <h2 key={index}>{str}</h2>);

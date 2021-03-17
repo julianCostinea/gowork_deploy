@@ -72,8 +72,8 @@ class HopOmbord extends Component {
                     </OneColumnDiv>
                     <OneColumnDiv
                         header={'Fagområder'}
-                        paragraph={`Vi har et særligt fokus på midlertidige jobs indenfor salg, det digitale og kreative, kundeservice,\n
-                      operations, eksamentilsyn, økonomi og administration. Her er et overblik over nogle af de\n 
+                        paragraph={`Vi har et særligt fokus på midlertidige jobs indenfor salg, det digitale og kreative, kundeservice,
+                      operations, eksamentilsyn, økonomi og administration. Her er et overblik over nogle af de
                       stillinger/opgaver vi løser:`}
                     >
                         <CardContainer>
@@ -98,9 +98,9 @@ class HopOmbord extends Component {
                     <OneColumnDiv
                         whiteDiv
                         header={'Ansøgningsproces'}
-                        paragraph={`Vi er stolte af vores mange glade kunder, som rater vores kandidater 4.5 ud af 5.0 stjerner. Du får med\n
-                        vores hjælp sikkerhed for, at du passer godt til de opgaver vi tilbyder dig. Vi sørger også for at den \n
-                        virksomhed du får tilbudt arbejde i, passer til dine ønsker. Det er nemlig kun et godt match hvis både \n
+                        paragraph={`Vi er stolte af vores mange glade kunder, som rater vores kandidater 4.5 ud af 5.0 stjerner. Du får med
+                        vores hjælp sikkerhed for, at du passer godt til de opgaver vi tilbyder dig. Vi sørger også for at den 
+                        virksomhed du får tilbudt arbejde i, passer til dine ønsker. \n\nDet er nemlig kun et godt match hvis både 
                         virksomheden og den ansatte er glade for hinanden - og det er vores mål!`}
                     >   
                         <div className='DesktopOnly'>

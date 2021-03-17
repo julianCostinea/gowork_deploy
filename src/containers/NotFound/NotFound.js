@@ -8,10 +8,11 @@ class Content extends Component {
         return(
             <div className={classes.Content}>
                 <TwoColumnDiv 
+                    buttonLink = {'/'}
                     buttonText ={`Take me back`}
                     header = {`Oops!\n This page \ncannot be found.`}
                     > 
-                    The page you were looking for doesn&apos;t exist <br />
+                    The page you were looking for doesn&apos;t exist 
                     or an error happened.
                 </TwoColumnDiv>
             </div>

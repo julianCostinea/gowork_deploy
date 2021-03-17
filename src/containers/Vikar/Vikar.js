@@ -22,7 +22,9 @@ class Vikar extends Component {
                 <TwoColumnDiv 
                     imageDiv = {<JobLaptop />}
                     buttonText ={'SE STILLINGER'}
+                    buttonLink = {'/vikar/ledige-stillinger'}
                     button2Text = {'OPRET CV'}
+                    button2Link = {'/vikar/opret-cv'}
                     header = {'Søger du\net fleksibelt job?'}
                     underText = {'Læs mere om dine muligheder >'}
                     >
@@ -32,8 +34,8 @@ class Vikar extends Component {
                 </TwoColumnDiv>
                 <OneColumnDiv 
                     header = {'Attention all doers'}
-                    paragraph = {`Vores vikar- og freelance team består af ambitiøse mennesker i starten af deres karriere, der \n
-                        springer til med kort varsel, har lyst til at møde nye virksomheder og kollegaer, og nyder den \n
+                    paragraph = {`Vores vikar- og freelance team består af ambitiøse mennesker i starten af deres karriere, der 
+                        springer til med kort varsel, har lyst til at møde nye virksomheder og kollegaer, og nyder den 
                             frihed som vikar-/freelance jobbet giver. Lyder det som noget for dig? `}
                     >
                       Opret dit CV – hvis ikke nu, hvornår så?

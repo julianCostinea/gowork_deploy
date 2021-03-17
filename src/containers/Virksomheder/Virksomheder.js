@@ -72,10 +72,9 @@ class Virksomheder extends Component {
                 </OneColumnDiv>
                 <OneColumnDiv 
                     header = {'Kvikke hoveder til de fleste opgaver'}
-                    paragraph = {`Vi holder os skarpt opdateret på udviklingen indenfor flere fagområder. Sådan sikrer vi at din \n
+                    paragraph = {`Vi holder os skarpt opdateret på udviklingen indenfor flere fagområder. Sådan sikrer vi at din
                     virksomhed til enhver tid har de stærkeste vikar eller freelance-specialister til opgaven.`}
                     >
-                        <br />
                         Vælg det område du søger personale til: 
                         <ServiceIcons />
                         <br />

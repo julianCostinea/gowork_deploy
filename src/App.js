@@ -37,7 +37,7 @@ class App extends Component {
   componentDidMount(){
     if (!sessionStorage.getItem('sessionHideModal')) {
       if (window.location.pathname !== '/') {
-        sessionStorage.setItem('sessionHideModal', true);
+        sessionStorage.setItem('sessionHideModal', true,);
       }
     }
     if (!sessionStorage.getItem('sessionHideModal')) {

@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
-import applicationProccess from '../../../assets/images/Rekrutteringsproces.svg';
+import applicationProccess from '../../../assets/images/Rekrutteringsproces.png';
 
 import classes from './ApplicationProcess.module.css'
 
-const BigCardPhoto = () => {
+const ApplicationProcess = () => {
     const [loaded, setLoaded] = useState(false);
     return (
     <div className={classes.CardPhoto}>
@@ -17,4 +17,4 @@ const BigCardPhoto = () => {
 );}
 
 
-export default BigCardPhoto;
+export default ApplicationProcess;

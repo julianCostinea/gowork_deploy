@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 import TwoColumnDiv from '../../components/TwoColumnDiv/TwoColumnDiv';
 import SalgPhoto from '../../components/ContentImages/FagOmraderImages/SalgPhoto';
 import OneColumnDiv from '../../components/OneColumnDiv/OneColumnDiv';
-import KontaktForm from '../../components/KontaktForm/KontaktForm';
+import KontaktForm from '../../containers/KontaktForm/KontaktForm';
 import MobileOnlyDash from '../../util/MobileOnlyDash';
 
 import classes from './ServicePage.module.css';

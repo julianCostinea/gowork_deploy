@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 import TwoColumnDiv from '../../components/TwoColumnDiv/TwoColumnDiv';
 import DigitaltPhoto from '../../components/ContentImages/FagOmraderImages/DigitaltPhoto';
 import OneColumnDiv from '../../components/OneColumnDiv/OneColumnDiv';
-import KontaktForm from '../../components/KontaktForm/KontaktForm';
+import KontaktForm from '../../containers/KontaktForm/KontaktForm';
 
 import classes from './ServicePage.module.css';
 

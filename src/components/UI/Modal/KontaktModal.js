@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import classes from './Modal.module.css';
 import Aux from '../../../hoc/Auxiliary/Auxiliary';
 import Backdrop from '../Backdrop/Backdrop';
-import KontaktForm from '../../KontaktForm/KontaktForm';
+import KontaktForm from '../../../containers/KontaktForm/KontaktForm';
 
 class KontaktModal extends Component {
     shouldComponentUpdate ( nextProps ) {

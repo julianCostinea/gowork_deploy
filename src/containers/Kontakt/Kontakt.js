@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import FacebookIcon from '../../components/Icons/facebookIcon';
 import LinkedInIcon from '../../components/Icons/linkedInIcon';
-import KontaktForm from '../../components/KontaktForm/KontaktForm';
+import KontaktForm from '../../containers/KontaktForm/KontaktForm';
 
 import classes from './Kontakt.module.css';
 import TwoColumnKontaktDiv from '../../components/TwoColumnKontaktDiv/TwoColumnKontaktDiv';
