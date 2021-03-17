@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/gowork_deploy/static/css/main.03105666.chunk.css",
-    "main.js": "/gowork_deploy/static/js/main.8c48f301.chunk.js",
-    "main.js.map": "/gowork_deploy/static/js/main.8c48f301.chunk.js.map",
-    "runtime-main.js": "/gowork_deploy/static/js/runtime-main.2ebb4394.js",
-    "runtime-main.js.map": "/gowork_deploy/static/js/runtime-main.2ebb4394.js.map",
-    "static/js/2.b282e7d1.chunk.js": "/gowork_deploy/static/js/2.b282e7d1.chunk.js",
-    "static/js/2.b282e7d1.chunk.js.map": "/gowork_deploy/static/js/2.b282e7d1.chunk.js.map",
-    "static/js/3.0b871601.chunk.js": "/gowork_deploy/static/js/3.0b871601.chunk.js",
-    "static/js/3.0b871601.chunk.js.map": "/gowork_deploy/static/js/3.0b871601.chunk.js.map",
+    "main.css": "/gowork_deploy/static/css/main.ed53ba77.chunk.css",
+    "main.js": "/gowork_deploy/static/js/main.a9d89bc3.chunk.js",
+    "main.js.map": "/gowork_deploy/static/js/main.a9d89bc3.chunk.js.map",
+    "runtime-main.js": "/gowork_deploy/static/js/runtime-main.58aa2ffa.js",
+    "runtime-main.js.map": "/gowork_deploy/static/js/runtime-main.58aa2ffa.js.map",
+    "static/js/2.e0b92e9e.chunk.js": "/gowork_deploy/static/js/2.e0b92e9e.chunk.js",
+    "static/js/2.e0b92e9e.chunk.js.map": "/gowork_deploy/static/js/2.e0b92e9e.chunk.js.map",
+    "static/js/3.71fffca0.chunk.js": "/gowork_deploy/static/js/3.71fffca0.chunk.js",
+    "static/js/3.71fffca0.chunk.js.map": "/gowork_deploy/static/js/3.71fffca0.chunk.js.map",
     "index.html": "/gowork_deploy/index.html",
-    "static/css/main.03105666.chunk.css.map": "/gowork_deploy/static/css/main.03105666.chunk.css.map",
-    "static/js/2.b282e7d1.chunk.js.LICENSE.txt": "/gowork_deploy/static/js/2.b282e7d1.chunk.js.LICENSE.txt",
+    "static/css/main.ed53ba77.chunk.css.map": "/gowork_deploy/static/css/main.ed53ba77.chunk.css.map",
+    "static/js/2.e0b92e9e.chunk.js.LICENSE.txt": "/gowork_deploy/static/js/2.e0b92e9e.chunk.js.LICENSE.txt",
     "static/media/AA_logo.b7951ccf.svg": "/gowork_deploy/static/media/AA_logo.b7951ccf.svg",
     "static/media/ATTITUDE.cda9f96f.png": "/gowork_deploy/static/media/ATTITUDE.cda9f96f.png",
     "static/media/Arne.cf372792.jpg": "/gowork_deploy/static/media/Arne.cf372792.jpg",
@@ -32,7 +32,7 @@
     "static/media/Operations.d8dd3bba.svg": "/gowork_deploy/static/media/Operations.d8dd3bba.svg",
     "static/media/Peter.e3144eac.jpg": "/gowork_deploy/static/media/Peter.e3144eac.jpg",
     "static/media/RUC_logo.c1434182.svg": "/gowork_deploy/static/media/RUC_logo.c1434182.svg",
-    "static/media/Rekrutteringsproces.9b3e5c17.svg": "/gowork_deploy/static/media/Rekrutteringsproces.9b3e5c17.svg",
+    "static/media/Rekrutteringsproces.e8f08373.png": "/gowork_deploy/static/media/Rekrutteringsproces.e8f08373.png",
     "static/media/Rikke.9e82c25a.jpg": "/gowork_deploy/static/media/Rikke.9e82c25a.jpg",
     "static/media/Sabbatar_rettet.e3eef129.png": "/gowork_deploy/static/media/Sabbatar_rettet.e3eef129.png",
     "static/media/Salg.a23c1931.png": "/gowork_deploy/static/media/Salg.a23c1931.png",
@@ -59,9 +59,9 @@
     "static/media/Økonomi_og administration.e0c966e4.svg": "/gowork_deploy/static/media/Økonomi_og administration.e0c966e4.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2ebb4394.js",
-    "static/js/2.b282e7d1.chunk.js",
-    "static/css/main.03105666.chunk.css",
-    "static/js/main.8c48f301.chunk.js"
+    "static/js/runtime-main.58aa2ffa.js",
+    "static/js/2.e0b92e9e.chunk.js",
+    "static/css/main.ed53ba77.chunk.css",
+    "static/js/main.a9d89bc3.chunk.js"
   ]
 }
