@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/gowork_deploy/static/css/main.ed53ba77.chunk.css",
+    "main.css": "/gowork_deploy/static/css/main.1fc0e947.chunk.css",
     "main.js": "/gowork_deploy/static/js/main.a9d89bc3.chunk.js",
     "main.js.map": "/gowork_deploy/static/js/main.a9d89bc3.chunk.js.map",
     "runtime-main.js": "/gowork_deploy/static/js/runtime-main.58aa2ffa.js",
@@ -10,7 +10,7 @@
     "static/js/3.71fffca0.chunk.js": "/gowork_deploy/static/js/3.71fffca0.chunk.js",
     "static/js/3.71fffca0.chunk.js.map": "/gowork_deploy/static/js/3.71fffca0.chunk.js.map",
     "index.html": "/gowork_deploy/index.html",
-    "static/css/main.ed53ba77.chunk.css.map": "/gowork_deploy/static/css/main.ed53ba77.chunk.css.map",
+    "static/css/main.1fc0e947.chunk.css.map": "/gowork_deploy/static/css/main.1fc0e947.chunk.css.map",
     "static/js/2.e0b92e9e.chunk.js.LICENSE.txt": "/gowork_deploy/static/js/2.e0b92e9e.chunk.js.LICENSE.txt",
     "static/media/AA_logo.b7951ccf.svg": "/gowork_deploy/static/media/AA_logo.b7951ccf.svg",
     "static/media/ATTITUDE.cda9f96f.png": "/gowork_deploy/static/media/ATTITUDE.cda9f96f.png",
@@ -61,7 +61,7 @@
   "entrypoints": [
     "static/js/runtime-main.58aa2ffa.js",
     "static/js/2.e0b92e9e.chunk.js",
-    "static/css/main.ed53ba77.chunk.css",
+    "static/css/main.1fc0e947.chunk.css",
     "static/js/main.a9d89bc3.chunk.js"
   ]
 }
