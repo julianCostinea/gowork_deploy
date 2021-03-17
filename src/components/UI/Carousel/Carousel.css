@@ -4,6 +4,8 @@
     width: 90%;
     text-align: left;
     height: 21rem;
+    box-sizing: border-box;
+    min-height: 21rem;
 }
 
 .carousel__track-container{
@@ -35,7 +37,6 @@
 }
 
 .carousel__button {
-    display: none;
     text-align: left;
     position: absolute;
     /* top 50 raises the TOP of the button to center. 
@@ -119,13 +120,22 @@
 @media (min-width: 576px) {
     .carousel {
         height: 350px;
-        width: 50%;
+        width: 70%;
     }
     .carousel__slide h2{
         font-size: 1.8rem;
         margin: 0 2rem;
     }
+}
+@media (min-width: 1441px) {
+    .carousel {
+        height: 350px;
+        width: 50%;
+    }
+}
+
+@media (max-width: 576px) {
     .carousel__button {
-        display: inline-block;
+        display: none;
     }
 }
