@@ -3,6 +3,7 @@ import React from 'react';
 import classes from './TwoColumnDiv.module.css';
 import Button from '../Button/Button';
 import { Link } from 'react-router-dom';
+import ArrowRightBlue from '../UI/Carousel/arrowRightBlue';
 
 const TwoColumnDiv = (props) => {
     let button1 = null;
@@ -34,7 +35,7 @@ const TwoColumnDiv = (props) => {
                 {button1}
                 {button2}
             <br />
-            {props.underText ? <Link to={'/vikar/hop-ombord'}>{props.underText}</Link> : null}
+            {props.underText ? <Link to={'/vikar/hop-ombord'}>{props.underText} <span style={{height:'13px', width:'13px', display:'inline-block'}}><ArrowRightBlue /></span></Link> : null}
         </div>
         <div className={classes.ImageDiv}>
             {props.imageDiv}

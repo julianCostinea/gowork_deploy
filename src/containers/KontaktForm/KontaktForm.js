@@ -16,7 +16,7 @@ class KontaktForm extends Component {
                     autoComplete: "name",
                 },
                 value: '',
-                label: "NAME*",
+                label: "NAVN*",
                 validation: {
                     required: true,
                     minLength: 5,

@@ -26,7 +26,7 @@ class Vikar extends Component {
                     button2Text = {'OPRET CV'}
                     button2Link = {'/vikar/opret-cv'}
                     header = {'Søger du\net fleksibelt job?'}
-                    underText = {'Læs mere om dine muligheder >'}
+                    underText = {'Læs mere om dine muligheder'}
                     >
                    Bliv GoWork’er! Og få tilbudt jobs der passer til <br />din hverdag, 
                    som studerende <br />nyuddannet 
@@ -64,24 +64,24 @@ class Vikar extends Component {
                 <CarouselContainer
                     header = {'Hvad siger vores vikarer om os?'}>
                    <Carousel 
-                        slide1 = {`Det har været en fornøjelse at være vikar ved GoWork. 
-                            På jobbet har det været rart at tale med kunder der gerne vil 
-                            snakke med dig, i selskab af ligesindede kollegaer.`}
-                        vikarPhoto1 = {<VikarPhotos.VikarPhotoMagnus />}
-                        slide1Name = {'Magnus'}
-                        jobTitle1 = {'Kontor og eksamensvagt'}
+                        slide1 = {`Som vikar ved GoWork er jeg fysisk aktiv. Jeg oplever 
+                            tillid fra arbejdspladserne, som giver mig ansvar. 
+                            Mine vagter er altid tilpasset min kalender.`}
+                        vikarPhoto1 = {<VikarPhotos.VikarPhotoMathias />}
+                        slide1Name = {'Mathias'}
+                        jobTitle1 = {'Lager vikar'}
                         slide2 = {`GoWork er et nærværende vikarbureau, jeg nemt kan komme i 
                             kontakt med. På min arbejdsplads, føler jeg mig ligeværdig med 
                             de ansatte og føler der bliver sat pris på mit arbejde.`}
                         vikarPhoto2 = {<VikarPhotos.VikarPhotoKatrine />}
                         slide2Name = {'Katrine'}
                         jobTitle2 = {'Kontor vikar'}
-                        slide3 = {`Som vikar ved GoWork er jeg fysisk aktiv. Jeg oplever 
-                            tillid fra arbejdspladserne, som giver mig ansvar. 
-                            Mine vagter er altid tilpasset min kalender.`}
-                        vikarPhoto3 = {<VikarPhotos.VikarPhotoMathias />}
-                        slide3Name = {'Mathias'}
-                        jobTitle3 = {'Lager vikar'}
+                        slide3 = {`Det har været en fornøjelse at være vikar ved GoWork. 
+                            På jobbet har det været rart at tale med kunder der gerne vil 
+                            snakke med dig, i selskab af ligesindede kollegaer.`}
+                        vikarPhoto3 = {<VikarPhotos.VikarPhotoMagnus />}
+                        slide3Name = {'Magnus'}
+                        jobTitle3 = {'Kontor og eksamensvagt'}
                    />
                 </CarouselContainer>
             </div>

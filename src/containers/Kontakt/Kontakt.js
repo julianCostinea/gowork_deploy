@@ -23,7 +23,6 @@ class Kontakt extends Component {
             </div>
         const kontaktForm = <div>
                 <h3>Skriv til os</h3>
-                <p>Vi sidder klar til at hjælpe dig godt i gang.</p>
                 <KontaktForm noHeader/>
             </div>
         return (

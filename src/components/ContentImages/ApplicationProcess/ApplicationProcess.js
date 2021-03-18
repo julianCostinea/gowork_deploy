@@ -5,6 +5,7 @@ import applicationStep2 from '../../../assets/images/ApplicationProcess/2.png';
 import applicationStep3 from '../../../assets/images/ApplicationProcess/3.png';
 import applicationStep4 from '../../../assets/images/ApplicationProcess/4.png';
 
+
 import classes from './ApplicationProcess.module.css'
 
 const ApplicationProcess = () => {

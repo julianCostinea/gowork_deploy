@@ -103,7 +103,7 @@ class HopOmbord extends Component {
                         virksomhed du får tilbudt arbejde i, passer til dine ønsker. \n\nDet er nemlig kun et godt match hvis både 
                         virksomheden og den ansatte er glade for hinanden - og det er vores mål!`}
                     >   
-                        <div className='DesktopOnly'>
+                        <div>
                             <h2
                                 style={{color: '#2a5c91', marginTop: '2rem', fontSize:'1.5rem'}}
                             >Her er en kort beskrivelse af en standard ansættelsesproces.</h2>

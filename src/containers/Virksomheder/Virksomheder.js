@@ -18,6 +18,7 @@ import KontaktModal from '../../components/UI/Modal/KontaktModal';
 import CarouselContainer from '../../components/CarouselContainer/CarouselContainer';
 import Carousel from '../../components/UI/Carousel/Carousel';
 import * as ClienPhotos from '../../components/ContentImages/ClientPhotos/ClientPhotos';
+import Arrow from '../../components/UI/Carousel/arrowRight';
 
 class Virksomheder extends Component {
     state={
@@ -37,8 +38,8 @@ class Virksomheder extends Component {
                 <TwoColumnDiv 
                     imageDiv = {<VirksomehederImg />}
                     header = {'Få de bedste \n vikarer og\n freelancere\n til opgaven'}>
-                   Hurtig adgang til de rette kompetencer og <br /> 
-                   garanti for et godt match. <br />
+                   Hurtig adgang til de rette kompetencer og
+                   garanti for et <br /> godt\ match. <br />
                    Og så kan du spare op til 35% på dit vikargebyr. <br /><br/><br/> 
                    Hvilken opgave søger du personale til? <br/>
                    <KontaktModalButton openKontakt = {this.showModal} />
@@ -56,7 +57,7 @@ class Virksomheder extends Component {
                         <Card 
                             cardPhoto ={<CardMatch />}
                             cardHeader = {'MATCH'}
-                            cardBody ={'Kunderne giver vores\nkandidater 4,5 ud af 5,0\nsterjner. Vi giver dig\n tryghed.'}
+                            cardBody ={'Kunderne giver vores\nkandidater 4,5 ud af 5,0\nstjerner. Vi giver dig\n tryghed.'}
                             />
                         <Card 
                             cardPhoto = {<CardOkonomi />}
@@ -71,6 +72,7 @@ class Virksomheder extends Component {
                     </CardContainer>
                 </OneColumnDiv>
                 <OneColumnDiv 
+                    lightBlueDiv
                     header = {'Kvikke hoveder til de fleste opgaver'}
                     paragraph = {`Vi holder os skarpt opdateret på udviklingen indenfor flere fagområder. Sådan sikrer vi at din
                     virksomhed til enhver tid har de stærkeste vikar eller freelance-specialister til opgaven.`}
@@ -82,14 +84,14 @@ class Virksomheder extends Component {
                         <a 
                             style={{cursor: 'pointer'}}
                             onClick = {this.showModal}>
-                                Fortæl os om dit behov
+                                Fortæl os om dit behov <span style={{height:'13px', width:'13px', display:'inline-block'}}><Arrow /></span>
                         </a>
                 </OneColumnDiv>
                 <CarouselContainer
                     whiteDiv
                     header = {'Hvad siger vores kunder?'}>
                    <Carousel 
-                        slide1 = {`Vi er særdeles tilfredse med vores samarbejde med Go:Work. Vi er i en branche, hvor behovet
+                        slide1 = {`Vi er særdeles tilfredse med vores samarbejde med GoWork. Vi er i en branche, hvor behovet
                             for personale varierer enormt - ofte med kort varsel. Med det samarbejde vi har
                             med GoWork, er vi aldrig bange for at tage opgaver ind.`}
                         vikarPhoto1 = {<ClienPhotos.ClientPhotoJacob />}

@@ -18,8 +18,6 @@ const footer = () => {
                         Er din virksomhed klar til at Go Work?
                     </li>
                 </ul>
-                <FacebookIcon/>
-                <LinkedInIcon/>
             </div>
             <div>
                 <ul className={classes.List}>
@@ -28,6 +26,9 @@ const footer = () => {
                     5000 Odense C. <br />
                     Tlf.: 6610 6500 <br/>
                     CVR.: 34704813</li>
+                    Følg os:
+                    <FacebookIcon/>
+                    <LinkedInIcon/>
                 </ul>
             </div>
         </div>

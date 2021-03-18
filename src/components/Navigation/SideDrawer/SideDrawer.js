@@ -20,7 +20,7 @@ const sideDrawer = ( props ) => {
                     <NavigationItems closeModal = {props.closed}/>
                 </nav>
                 <div className={classes.Footer}>
-                    <h4 style={{marginLeft:'3px'}}>Følg os på:</h4>
+                    <h4 style={{marginLeft:'3px'}}>Følg os:</h4>
                     <FacebookIcon link ='https://www.facebook.com/goworkodense/' />
                     <LinkedInIcon link = 'https://dk.linkedin.com/company/go-work-aps'/>
                 </div>

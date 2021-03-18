@@ -13,7 +13,7 @@ class OmOs extends Component {
           <div>
               <div className={classes.Content}>
                 <OneColumnDiv
-                    whiteDiv
+                    lightBlueDiv
                     header = {'Passion for fremtidens medarbejdere'}
                     paragraph={`Go:Work er et vikar- og freelancebureau.Vi har siden 2012 formidlet studerende og 
                         nyuddannede til vikariater- og studiejobs, og specialister til freelanceopgaver.\n
@@ -22,49 +22,50 @@ class OmOs extends Component {
                 >
                 </OneColumnDiv>
                 <OneColumnDiv
+                    whiteDiv
                     header={'Vores team'}
                 >
                     <CardContainer>
                         <Card 
                             cardPhoto = {<TeamPhotos.CandidatePhotoOle />}
-                            cardHeader = {'OLE'}
+                            cardHeader = {'Ole Susé'}
                             cardBody ={'Senior Konsulent & Indehaver'}
                             />
                         <Card 
                             cardPhoto = {<TeamPhotos.CandidatePhotoJonas />}
-                            cardHeader = {'JONAS'}
+                            cardHeader = {'Jonas Jeppesen'}
                             cardBody ={'HR Konsulent'}
                             />
                         <Card 
                             cardPhoto = {<TeamPhotos.CandidatePhotoJulian />}
-                            cardHeader = {'JULIAN'}
+                            cardHeader = {'Julian Costinea'}
                             cardBody ={'HR Konsulent'}
                             />
                         <Card 
                             cardPhoto = {<TeamPhotos.CandidatePhotoErik />}
-                            cardHeader = {'ERIK'}
+                            cardHeader = {'Erik Dreiøe'}
                             cardBody ={'HR Konsulent'}
                             />
                     </CardContainer>
                     <CardContainer>
                         <Card 
                             cardPhoto = {<TeamPhotos.CandidatePhotoIgnacio />}
-                            cardHeader = {'Ignacio'}
+                            cardHeader = {'Ignacio Gonzalez'}
                             cardBody ={'LUCHADOR'}
                             />
                         <Card 
                             cardPhoto = {<TeamPhotos.CandidatePhotoPeter/>}
-                            cardHeader = {'PETER'}
+                            cardHeader = {'Peter Prese'}
                             cardBody ={'HR Konsulent'}
                             />
                         <Card 
                             cardPhoto = {<TeamPhotos.CandidatePhotoArne/>}
-                            cardHeader = {'ARNE'}
+                            cardHeader = {'Arne Lauritzen'}
                             cardBody ={'Senior Konsulent'}
                             />
                         <Card 
                             cardPhoto = {<TeamPhotos.CandidatePhotoTrine/>}
-                            cardHeader = {'TRINE'}
+                            cardHeader = {'Trine le Fevre'}
                             cardBody ={'Bogholder'}
                             />
                     </CardContainer>

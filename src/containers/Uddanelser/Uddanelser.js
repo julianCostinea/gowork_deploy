@@ -55,7 +55,7 @@ class Uddanelser extends Component {
                         <Card 
                             cardPhoto = {<CardMatch />}
                             cardHeader = {'ET GODT MATCH'}
-                            cardBody ={'Kunderne giver vores\nkandidater 4,5 ud af 5,0\nsterjner.'}
+                            cardBody ={'Kunderne giver vores\nkandidater 4,5 ud af 5,0\n stjerner.'}
                             />
                         <Card 
                             cardPhoto={<CardFleksibilitet />}

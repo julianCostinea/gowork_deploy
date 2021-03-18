@@ -52,8 +52,9 @@ h2, p{
         text-align: left;
     }
     .VideoDiv iframe {
-        width: 35rem;
-        height: 22rem;
+        margin-top: 3rem;
+        width: 28rem;
+        height: 18rem;
         border-radius: 10px;
     }
 }
